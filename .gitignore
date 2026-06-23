@@ -1,0 +1,36 @@
+# --- DOSSIERS DE BUILD (Vite & Electron) ---
+node_modules/
+dist/
+dist-ssr/
+dist_electron/
+out/
+release/
+
+# --- DONNÉES LOCALES & VARIABLES (À ignorer pour ne pas écraser tes datas) ---
+electron/db.json
+donnees.json
+*.local
+.env
+.env.*
+
+# --- LOGS ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- FICHIERS SYSTEME & IDE ---
+desktop.ini
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
